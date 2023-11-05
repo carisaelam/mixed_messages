@@ -39,7 +39,7 @@
 
 <br>
 
-###Sample Output 
+### Sample Output 
 >**Your song should be about the beauty of nature.
 >It should have a medium fast tempo.
 >It should be in the key of Am.**
