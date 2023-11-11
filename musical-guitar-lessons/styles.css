@@ -1,0 +1,338 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+/* Header Section [Title/Logo] */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    opacity: .9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px lightgray solid;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.navul {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2rem;
+    width: auto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.navlist a {
+   color: rgb(216, 134, 26);
+   background-color: whitesmoke;
+   border: 1px solid darkgrey;
+   border-radius: 5px; 
+   padding: .5rem;
+}
+
+
+
+/* Mission Section [Statement and Description] */
+
+.mission {
+    position: relative;
+    top: 8rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 40rem;
+    width: 100%;
+    background-image: url(./resources/whiteguitar.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 1px lightgray solid;
+}
+
+
+.mission-paragraph {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    border: 2px solid rgb(216, 134, 26);
+    width: 50rem;
+    background-color: white;
+    opacity: .9;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    padding: 1.5rem;
+}
+
+.mission h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.mission h3 {
+    font-size: 1.5rem;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(63, 63, 63);
+}
+
+
+/* Product Section [Lesson Offerings & Pricing]*/
+
+.product {
+    position: relative;
+    top: 8rem;
+    width: 100%; 
+    height: auto; 
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+    border-bottom: 1px lightgray solid;
+}
+
+.product-header {
+    width: 90%;
+    height: 7rem; 
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.product-header h1 {
+    font-size: 3rem;
+}
+
+.product-item {
+    width: 40rem;
+    height: auto; 
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    background-color: whitesmoke;
+    border: 1px solid darkgrey;
+    border-radius: 5px; 
+}
+
+.product-item h2 {
+    font-size: 2rem;
+    margin-bottom: .01rem;
+}
+
+.product-item p {
+    height: 7rem;
+    margin-top: .5rem;
+}
+
+#beginner-image, #intermediate-image, #advanced-image, #ukulele-image {
+    max-width: 97%; 
+    height: auto;
+}
+
+
+/* Our Team Section */
+
+.our-team {
+    position: relative;
+    top: 8rem;
+    width: 100%; 
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.our-team-header {
+    width: 90%;
+    height: 7rem; 
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.team-member-block {
+    width: 40rem;
+    height: auto; 
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.our-team-header h1 {
+    font-size: 3rem;
+}
+
+
+#team-member-1-image, #team-member-2-image {
+    max-width: 97%; 
+    height: auto;
+}
+
+.join-team  {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+.join-team-header {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 0;
+}
+
+.button-div {
+    max-width: 100%;
+    height: auto;
+    border: 2px orangen solid;
+}
+
+.join-team-button {
+    height: auto;
+    margin-bottom: 3rem;
+    color: rgb(216, 134, 26);
+    background-color: whitesmoke;
+    border: 1px solid darkgrey;
+    border-radius: 5px; 
+    padding: .5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* Footer Section [Contact Info] */
+
+.footer {
+    position: relative;
+    top: 10rem;   
+    width: 100%;
+    height: auto; 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    flex-wrap: shrink;    
+}
+
+.footer-block-left {
+    width: 25rem;
+    height: auto; 
+    text-align: center;
+    padding-left: 1rem;
+}
+
+.contactul, .footer-block-left h3 {
+    padding-inline-start: 0;
+    text-align: left;
+}
+
+.footer-block-right h3 {
+    text-align: right;
+    width: 25rem;
+    height: auto; 
+    padding-right: 1rem;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 0.5;
+}
+
+.contactli {
+    list-style: none;
+    text-align: left;
+    line-height: 2rem;
+}
+
+#address2 {
+    line-height: 1rem;
+}
+
+.footer-image {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    margin-top: 0px; 
+    margin-right: 1rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px){
+    html {
+        font-size: 10px; 
+    }
+
+    .logo {
+       max-width: 50px; 
+       max-height: 50px;
+       padding: 5px; 
+    }
+
+    .navlist {
+        font-size: .75rem;
+    }
+
+    .mission-block {
+        max-width: 400px; 
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        position: relative;
+        top: 2rem;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .mission-paragraph {
+        max-width: 250px; 
+        font-size: 1rem;
+        line-height: 1rem;
+        text-align: center;
+    }
+
+    #logo {
+        max-height: 50px;
+        max-width: 50px;
+    }
+
+    .contactli {
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+}
